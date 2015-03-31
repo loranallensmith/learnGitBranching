@@ -20,7 +20,7 @@ var GRAPHICS = {
   defaultEasing: 'easeInOut',
   defaultAnimationTime: 400,
 
-  rectFill: 'hsb(0.8816909813322127,0.6,1)',
+  rectFill: 'hsb(0.69,0.4,1)',
   headRectFill: '#2831FF',
   rectStroke: '#FFF',
   rectStrokeWidth: '3',
@@ -44,11 +44,10 @@ var GRAPHICS = {
   tagFill: 'hsb(0,0,0.9)',
   tagStroke: '#FFF',
   tagStrokeWidth: '2',
-  
+
   orphanNodeFill: 'hsb(0.5,0.8,0.7)'
 };
 
 exports.TIME = TIME;
 exports.GRAPHICS = GRAPHICS;
 exports.VIEWPORT = VIEWPORT;
-

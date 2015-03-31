@@ -241,8 +241,8 @@ div.canvasTerminalHolder {
 
 div.gitDemonstrationView > div.visHolder,
 .visBackgroundColor {
-  background: #5cbcfc;
-  background-color: #5cbcfc;
+  background: #d6d6d6;
+  background-color: #d6d6d6;
 }
 
 body.hgMode div.gitDemonstrationView > div.visHolder,
@@ -1260,4 +1260,3 @@ div.gitDemonstrationView {
     margin: 7% 0;
   }
 }
-

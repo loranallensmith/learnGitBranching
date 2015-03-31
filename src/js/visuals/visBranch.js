@@ -6,8 +6,8 @@ var VisBase = require('../visuals/visBase').VisBase;
 var TreeCompare = require('../graph/treeCompare');
 
 var randomHueString = function() {
-  var hue = Math.random();
-  var str = 'hsb(' + String(hue) + ',0.6,1)';
+  var hue = Math.random(0, 0.5);
+  var str = 'hsb(' + String(hue) + ',0.4,1)';
   return str;
 };
 
@@ -502,7 +502,7 @@ var VisBranch = VisBase.extend({
     if (this.getIsGoalAndNotCompared()) {
       return this.get('stroke-width') / 5.0;
     }
-    
+
     return this.get('stroke-width');
   },
 
@@ -576,4 +576,3 @@ var VisBranchCollection = Backbone.Collection.extend({
 exports.VisBranchCollection = VisBranchCollection;
 exports.VisBranch = VisBranch;
 exports.randomHueString = randomHueString;
-
